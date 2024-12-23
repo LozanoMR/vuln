@@ -1,0 +1,65 @@
+body {
+            background-color: #0d0d0d;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+         h1 {
+            margin-top: 20px;
+            font-size: 24px;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        label, select {
+            margin: 10px;
+            font-size: 16px;
+        }
+        select {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+            padding: 5px;
+        }
+        .categories button {
+            margin: 5px;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            background-color: #1a1a1a;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+        }
+        .categories button:hover {
+          transition: 1s;
+            background-color: #00ff00;
+            color: #0d0d0d;
+        }
+        
+        @keyframes parpadear {
+          0% {opacity: 1;}
+          50% {opacity: 0;}
+          100% {opacity: 1;}
+        }
+        #query {
+          animation: parpadear 1s infinite;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 14px;
+            text-shadow: 0 0 5px #00ff00;
+        }
+        a {
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 12px;
+            color: #555;
+        }
